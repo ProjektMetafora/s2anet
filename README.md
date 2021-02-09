@@ -16,6 +16,8 @@ The past decade has witnessed significant progress on detecting objects in aeria
 
 ## Changelog
 
+* **2021-02-09** Added a FastAPI REST API backend for inferencing on images
+
 * **2021-01-01.** **Big changes!** Following mmdetection v2, we made a lot of changes to our code. Our original code contains many unnecessary functions and inappropriate modifications. So we modified related codes, e.g, dataset preprocessing and loading, unified function names, iou calculator between OBBs, and evaluation. Besides, we also implement a **Cascade S<sup>2</sup>A-Net**. Compared with previous versions, the updated version is more straightforward and easy to understand. 
 
 
