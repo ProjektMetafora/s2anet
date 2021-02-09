@@ -120,13 +120,13 @@ hrsc2016_colormap = [
 
 models_dict = {
     "s2anet-dota": {
-        "config": "/mnt/data/ntro-demo/satellite-backend/s2anet/models/s2anet_r50_fpn_1x_dota.py",
-        "checkpoint": "/mnt/data/ntro-demo/satellite-backend/s2anet/models/s2anet_r50_fpn_1x_converted-11c9c5f4.pth",
+        "config": "/mnt/data/demo/satellite-backend/s2anet/models/s2anet_r50_fpn_1x_dota.py",
+        "checkpoint": "/mnt/data/demo/satellite-backend/s2anet/models/s2anet_r50_fpn_1x_converted-11c9c5f4.pth",
         "colormap": dota_colormap
     },
     "s2anet-hrsc2016": {
-        "config": "/mnt/data/ntro-demo/satellite-backend/s2anet/models/s2anet_r101_fpn_3x_hrsc2016.py",
-        "checkpoint": "/mnt/data/ntro-demo/satellite-backend/s2anet/models/s2anet_r101_fpn_3x_hrsc2016_converted-4a4548e1.pth",
+        "config": "/mnt/data/demo/satellite-backend/s2anet/models/s2anet_r101_fpn_3x_hrsc2016.py",
+        "checkpoint": "/mnt/data/demo/satellite-backend/s2anet/models/s2anet_r101_fpn_3x_hrsc2016_converted-4a4548e1.pth",
         "colormap": hrsc2016_colormap
     },
 }
